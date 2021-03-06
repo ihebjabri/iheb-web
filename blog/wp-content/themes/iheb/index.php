@@ -1,3 +1,22 @@
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Nineteen
+ * @since Twenty Nineteen 1.0
+ */
+
+get_header();
+?>
+
 <!doctype html>
 <html lang="en-US">
 
@@ -568,10 +587,8 @@
             <div class="title ">Recent Works</div>
             <div class="filter-menu filter-button-group">
               <div class="f_btn active"> <label><input type="radio" name="fl_radio" value=".grid-item" />All</label></div>
-              <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-video" />Video</label></div>
-              <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-photo" />Photo</label></div>
-              <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-music" />Music</label></div>
-              <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-design" />Design</label></div>
+              <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-video" />Web</label></div>
+              <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-photo" />Mobile</label></div>
             </div>
             <div class="row grid-items border-line-v">
               <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-photo ">
@@ -718,72 +735,48 @@
           <div class="content blog">
             <div class="title">Latest Posts</div>
             <div class="row border-line-v">
-              <div class="col col-d-6 col-t-6 col-m-12">
-                <div class="box-item">
-                  <div id="post-115" class="post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-design category-music tag-code tag-html tag-plugin tag-web">
-                    <div class="image"> <a class="post-thumbnail" href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/" aria-hidden="true" tabindex="-1"> <noscript><img width="590" height="330"
-                            src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog1-590x330.jpg" class="attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Creativity Is More Than" /></noscript><img width="590"
-                          height="330" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20590%20330%22%3E%3C/svg%3E' data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog1-590x330.jpg"
-                          class="lazyload attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Creativity Is More Than" /> <span class="info"> <span class="ion ion-document-text"></span> </span> </a></div>
-                    <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/"> <span class="date"> November 16, 2018 </span> </a> <a
-                        href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/" class="name">Creativity Is More Than</a>
-                      <div class="text">
-                        <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos&#8230;</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12">
-                <div class="box-item">
-                  <div id="post-93" class="post-93 post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-code tag-html tag-music tag-plugin">
-                    <div class="image"> <a class="post-thumbnail" href="https://ryancv.bslthemes.com/v4/2018/11/16/designing-the-perfect-notification-ux/" aria-hidden="true" tabindex="-1"> <noscript><img width="590" height="330"
-                            src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog2-590x330.jpg" class="attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Designing the perfect" /></noscript><img width="590" height="330"
-                          src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20590%20330%22%3E%3C/svg%3E' data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog2-590x330.jpg"
-                          class="lazyload attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Designing the perfect" /> <span class="info"> <span class="ion ion-document-text"></span> </span> </a></div>
-                    <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/designing-the-perfect-notification-ux/"> <span class="date"> November 16, 2018 </span> </a> <a
-                        href="https://ryancv.bslthemes.com/v4/2018/11/16/designing-the-perfect-notification-ux/" class="name">Designing the perfect</a>
-                      <div class="text">
-                        <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos&#8230;</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12">
-                <div class="box-item">
-                  <div id="post-91" class="post-91 post type-post status-publish format-standard has-post-thumbnail hentry category-music tag-html tag-music tag-plugin tag-web">
-                    <div class="image"> <a class="post-thumbnail" href="https://ryancv.bslthemes.com/v4/2018/11/16/music-player-design/" aria-hidden="true" tabindex="-1"> <noscript><img width="590" height="330"
-                            src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog3-590x330.jpg" class="attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Music Player Design" /></noscript><img width="590" height="330"
-                          src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20590%20330%22%3E%3C/svg%3E' data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog3-590x330.jpg"
-                          class="lazyload attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Music Player Design" /> <span class="info"> <span class="ion ion-document-text"></span> </span> </a></div>
-                    <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/music-player-design/"> <span class="date"> November 16, 2018 </span> </a> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/music-player-design/"
-                        class="name">Music Player Design</a>
-                      <div class="text">
-                        <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos&#8230;</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12">
-                <div class="box-item">
-                  <div id="post-88" class="post-88 post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-code tag-html tag-music tag-plugin">
-                    <div class="image"> <a class="post-thumbnail" href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song-and-dance-act/" aria-hidden="true" tabindex="-1"> <noscript><img width="590" height="330"
-                            src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog1-590x330.jpg" class="attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="A Song And Dance Act" /></noscript><img width="590" height="330"
-                          src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20590%20330%22%3E%3C/svg%3E' data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog1-590x330.jpg"
-                          class="lazyload attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="A Song And Dance Act" /> <span class="info"> <span class="ion ion-document-text"></span> </span> </a></div>
-                    <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song-and-dance-act/"> <span class="date"> November 16, 2018 </span> </a> <a
-                        href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song-and-dance-act/" class="name">A Song And Dance Act</a>
-                      <div class="text">
-                        <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique ut. Te cule tation munere noluisse. Enim torquatos&#8230;</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+
+			<!-- foreach posts -->
+
+           <?php
+				$recent_posts = wp_get_recent_posts(array(
+					'numberposts' => 5, // Number of recent posts thumbnails to display
+					'post_status' => 'publish' // Show only the published posts
+				));
+				foreach( $recent_posts as $post_item ) : ?>
+
+					<div class="col col-d-6 col-t-6 col-m-12">
+						<div class="box-item">
+						<div id="post-115" class="post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-design category-music tag-code tag-html tag-plugin tag-web">
+							<div class="image"> <a class="post-thumbnail" href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/" aria-hidden="true" tabindex="-1"> <noscript><img width="590" height="330"
+									src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog1-590x330.jpg" class="attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Creativity Is More Than" /></noscript><img width="590"
+								height="330" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20590%20330%22%3E%3C/svg%3E' data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog1-590x330.jpg"
+								class="lazyload attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Creativity Is More Than" /> <span class="info"> <span class="ion ion-document-text"></span> </span> </a></div>
+							<div class="desc"> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/"> <span class="date"> <?php echo get_the_date('d M Y', $post_item); ?></span> </a> <a
+								href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/" class="name"><?php echo $post_item['post_title'] ?></a>
+							<div class="text">
+						<?php 
+							$trimtitle = get_the_content($post_item->ID);
+                            $shorttitle = wp_trim_words( $trimtitle, $num_words = 15, $more = '… ' );
+						 ?> 
+              
+								<p> <?php echo the_content($post_item); ?> </p>
+							</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					
+					
+				<?php endforeach; ?>
+
+
+         	 <!-- end posts --> 
+
               <div class="clear"></div>
             </div>
+
             <div class="pager">
               <nav class="navigation pagination" role="navigation" aria-label=" ">
                 <h2 class="screen-reader-text"></h2>
@@ -867,9 +860,13 @@
   </script>
   <script async data-noptimize="1" src='https://ryancv.bslthemes.com/v4/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js?ao_version=2.7.8'></script>
   <link rel='stylesheet' id='font-awesome-css' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css?ver=5.5.3' type='text/css' media='all' />
-  <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s&#038;ver=1.0.0' id='ryancv-google-maps-js'></script>
 
   <script defer src="https://ryancv.bslthemes.com/v4/wp-content/cache/autoptimize/js/autoptimize_b3c0066ab9193b808d3369d2f76bcc24.js"></script>
 </body>
 
 </html>
+
+
+
+<?php
+get_footer();
