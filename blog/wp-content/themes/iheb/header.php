@@ -1,21 +1,79 @@
-<!doctype html>
-<html lang="en-US">
-
+<?php
+/**
+ * The header for our theme
+ *
+ * This is the template that displays all of the <head> section and everything up until <div id="content">
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage Twenty_Nineteen
+ * @since Twenty Nineteen 1.0
+ */
+?><!doctype html>
+<html <?php language_attributes(); ?>>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
 
-  <title>Jabri Iheb</title>
-  <link rel='dns-prefetch' href='//maps.googleapis.com' />
-  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-  <link rel="alternate" type="application/rss+xml" title="RyanCV - vCard / Resume / CV WordPress Theme &raquo; Feed" href="https://ryancv.bslthemes.com/v4/feed/" />
-  <link rel="alternate" type="application/rss+xml" title="RyanCV - vCard / Resume / CV WordPress Theme &raquo; Comments Feed" href="https://ryancv.bslthemes.com/v4/comments/feed/" />
-  <link rel='stylesheet' id='ryancv-fonts-css' href='//fonts.googleapis.com/css?family=Poppins%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;subset=latin%2Clatin-ext'
-    type='text/css' media='all' />
-  <script type='text/javascript' src='https://ryancv.bslthemes.com/v4/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
-  <?php wp_head(); ?>
 </head>
 
-<body class="home page-template page-template-template-layout-builder page-template-template-layout-builder-php page page-id-17">
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?><?php
+/**
+ * The header for our theme
+ *
+ * This is the template that displays all of the <head> section and everything up until <div id="content">
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage Twenty_Nineteen
+ * @since Twenty Nineteen 1.0
+ */
+?><!doctype html>
+<html <?php language_attributes(); ?>>
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<?php wp_head(); ?>
+</head>
+
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentynineteen' ); ?></a>
+
+		<header id="masthead" class="<?php echo is_singular() && twentynineteen_can_show_post_thumbnail() ? 'site-header featured-image' : 'site-header'; ?>">
+
+			<div class="site-branding-container">
+				<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
+			</div><!-- .site-branding-container -->
+
+			<?php if ( is_singular() && twentynineteen_can_show_post_thumbnail() ) : ?>
+				<div class="site-featured-image">
+					<?php
+						twentynineteen_post_thumbnail();
+						the_post();
+						$discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentynineteen_get_discussion_data() : null;
+
+						$classes = 'entry-header';
+					if ( ! empty( $discussion ) && absint( $discussion->responses ) > 0 ) {
+						$classes = 'entry-header has-discussion';
+					}
+					?>
+					<div class="<?php echo $classes; ?>">
+						<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
+					</div><!-- .entry-header -->
+					<?php rewind_posts(); ?>
+				</div>
+			<?php endif; ?>
+		</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+
+
+

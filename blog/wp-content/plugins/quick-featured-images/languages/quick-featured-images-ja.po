@@ -1,0 +1,958 @@
+# Copyright (C) 2014
+# This file is distributed under the same license as the plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Featured Images Pro\n"
+"Report-Msgid-Bugs-To: http://quickfeaturedimages.com\n"
+"POT-Creation-Date: 2020-12-16 16:06+0100\n"
+"PO-Revision-Date: 2021-02-21 20:03+0000\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/views/form_confirm.php:2
+#, php-format
+msgid "%d matches found"
+msgstr "一致: %d 件"
+
+#: admin/class-quick-featured-images-tools.php:746
+#, php-format
+msgid "%s is not defined."
+msgstr "%s が定義されていません。"
+
+#: admin/class-quick-featured-images-columns.php:278
+msgid "(external image)"
+msgstr "（外部画像）"
+
+#: admin/views/form_start.php:63
+msgid ""
+"1. Go to the media library. 2. Move the mouse over the desired image. "
+"Further links are appearing, among them the link &quot;Bulk set as featured "
+"image&quot;. 3. After a click on it you can move on in this plugin."
+msgstr ""
+"1. メディアライブラリを開く。2. 目的の画像にマウスポインタを合わせて &quot;アイキャッチ画像に設定&quot; リンクを表示させる。3. "
+"そのリンクをクリックしてプラグインの画面に戻る。"
+
+#: admin/views/form_start.php:21
+msgid "Actions with a single image"
+msgstr "画像を1枚必要とするアクション"
+
+#: admin/views/form_start.php:67
+msgid "Actions with multiple images"
+msgstr "複数の画像を必要とするアクション"
+
+#: admin/views/form_start.php:101
+msgid "Actions without any selected image"
+msgstr "画像の選択が必要ないアクション"
+
+#: admin/class-quick-featured-images-settings.php:618
+msgid ""
+"Activate the checkbox to show the extra column in the media library. If you "
+"would not see the new column in the library switch the appereance of the "
+"library to List mode. The post titles are links to the respective post edit "
+"page."
+msgstr ""
+
+#: admin/class-quick-featured-images-settings.php:596
+msgid ""
+"Activate the checkboxes at each post type to show the extra columns in the "
+"post lists."
+msgstr "チェックボックスをオンにした投稿タイプの投稿リストに画像カラムが追加されます。"
+
+#: admin/views/section_defaults.php:242
+msgid ""
+"Activate to automatically overwrite an existing featured image while saving "
+"a post"
+msgstr "投稿の保存時に既存のアイキャッチ画像を自動的に上書きする"
+
+#: admin/views/section_defaults.php:255
+msgid ""
+"Activate to automatically use the first content image if available in the "
+"media library as featured image while saving a post"
+msgstr "投稿の保存時に、投稿の最初の画像 (メディアライブラリにある画像) を自動的にアイキャッチ画像に設定する"
+
+#: admin/class-quick-featured-images-tools.php:576
+msgid "Add filter"
+msgstr "フィルタの追加"
+
+#: admin/views/section_defaults.php:491
+msgid "Add rule"
+msgstr "ルールを追加"
+
+# alt text for sample screen image
+#: admin/views/section_defaults.php:238
+msgid "An image overwrites an existing image"
+msgstr "既存の画像の上書き"
+
+#: admin/views/section_defaults.php:496
+msgid "Are you sure to remove this rule?"
+msgstr "このルールを削除しますか?"
+
+#: admin/views/section_defaults.php:511
+msgid ""
+"Bear in mind that if two or more rules with the same taxonomy would fit to "
+"the post it is unforeseeable which image will become the featured image."
+msgstr "同じタクソノミーの2つ以上のルールが当てはまった場合、どの画像がアイキャッチ画像に設定されるか予期できなくなることに注意してください。"
+
+#: admin/class-quick-featured-images-tools.php:2057
+msgid "Bulk set as featured image"
+msgstr "アイキャッチ画像に設定"
+
+#: admin/class-quick-featured-images-tools.php:1948
+msgid "Bulk set, replace and remove featured images for existing posts"
+msgstr "アイキャッチ画像を一括で設定・変更・削除します。"
+
+#: admin/views/form_confirm.php:20
+msgid "by"
+msgstr "作成者:"
+
+#: admin/class-quick-featured-images-tools.php:602
+msgid "Category Filter"
+msgstr "カテゴリーフィルタ"
+
+#: admin/class-quick-featured-images-columns.php:279
+#, php-format
+msgid "Change &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;の変更"
+
+#: admin/views/section_results.php:19
+msgid "Changed successfully"
+msgstr "変更完了"
+
+#: admin/class-quick-featured-images-tools.php:747
+msgid "Check how to define the value."
+msgstr "値の設定のしかたを確認"
+
+#: admin/views/form_start.php:57
+msgid "Choose Image"
+msgstr "画像の選択"
+
+#: admin/views/form_select.php:23 admin/views/form_start.php:84
+msgid "Choose Images"
+msgstr "画像の選択"
+
+#. title of the section.
+#: admin/class-quick-featured-images-settings.php:419
+msgid "Column in the library for posts with assigned featured image"
+msgstr ""
+
+#. title of the section.
+#: admin/class-quick-featured-images-settings.php:383
+msgid "Columns for featured images in posts lists"
+msgstr "投稿リストのアイキャッチ画像のカラム"
+
+#: admin/class-quick-featured-images-tools.php:578
+msgid "Confirm"
+msgstr "確認"
+
+#: admin/views/form_confirm.php:120
+msgid "Confirm the change"
+msgstr "変更の確認"
+
+#: admin/class-quick-featured-images-tools.php:597
+msgid "Consider only posts without any featured image"
+msgstr "アイキャッチ画像が設定されていない投稿だけを対象にする"
+
+#: admin/class-quick-featured-images-settings.php:696
+msgid "Controls which minimum user role can see the plugin."
+msgstr "プラグイン画面を表示できるユーザー権限を設定します。"
+
+#: admin/views/section_footer.php:16
+msgid "Credits and informations"
+msgstr "クレジットと情報"
+
+#: admin/views/form_confirm.php:17 admin/views/section_results.php:17
+msgid "Current Featured Image"
+msgstr "現在のアイキャッチ画像"
+
+#: admin/views/section_defaults.php:208
+msgid "Default featured images for future posts"
+msgstr "新規投稿のデフォルトのアイキャッチ画像"
+
+#: admin/views/section_defaults.php:210
+msgid ""
+"Define the rules to use images as default featured images automatically "
+"every time a post is saved."
+msgstr "投稿が保存されるときにデフォルトのアイキャッチ画像を設定するルールを定義します。"
+
+#: admin/views/form_confirm.php:15 admin/views/section_results.php:16
+msgid "Details"
+msgstr "詳細"
+
+#: admin/class-quick-featured-images-settings.php:615
+msgid ""
+"Display a new column in the media library with the titles of the posts for "
+"which the corresponding image is set as featured image"
+msgstr ""
+
+#: admin/views/section_footer.php:18 admin/views/section_results.php:87
+msgid "Do you like the plugin?"
+msgstr "プラグインを気に入りましたか?"
+
+#: admin/views/section_footer.php:19
+msgid "Do you need support or have an idea for the plugin?"
+msgstr "サポートが必要ですか? アイデアをお持ちですか?"
+
+#: admin/views/section_footer.php:20
+#, php-format
+msgid "Download plugin %s at %s!"
+msgstr "%s プラグインを %s からダウンロード!"
+
+#: admin/views/section_errormsg.php:1
+msgid "Error"
+msgstr "エラー"
+
+#: admin/views/section_defaults.php:500
+msgid ""
+"Every time you save a post the post get the featured image if one of the "
+"following rules match a property of the post. You can also set rules for "
+"pages and all other current post types which support featured images."
+msgstr ""
+"下記のルールが当てはまれる投稿には、保存時にアイキャッチ画像が自動的に設定されます。アイキャッチ画像をサポートしている固定ページやその他の投稿タイプにもルールを設定できます。"
+
+#: admin/views/form_select.php:115
+#| msgid ""
+#| "Facing a white blank page while trying to treat thousands of posts is the "
+#| "effect of limited memory capacities on the website server. Instead of "
+#| "treating a huge amount of posts in one single go try to treat small "
+#| "amounts of posts multiple times successively. To achieve that do:"
+msgid ""
+"Facing a white blank page while trying to treat thousands of posts is the "
+"effect of limited memory capacities on the website server. Instead of "
+"treating a huge amount of posts in one single go try to treat small amounts "
+"of posts multiple times successively."
+msgstr ""
+
+#: admin/class-quick-featured-images-columns.php:652
+msgid "Featured image for"
+msgstr ""
+
+#: admin/views/form_refine.php:18
+#, php-format
+msgid "File %s is not available."
+msgstr "%sファイルは利用できません。"
+
+#: admin/views/section_defaults.php:258
+msgid "For which post types should this rule be applied?"
+msgstr "このルールを適用する投稿タイプ"
+
+#: admin/views/section_defaults.php:503
+msgid "found first content image. If not then..."
+msgstr "最初の画像を探す。もしなければ..."
+
+#: admin/views/form_confirm.php:18
+msgid "Future Featured Image"
+msgstr "新しいアイキャッチ画像"
+
+#: admin/views/form_start.php:14
+msgid ""
+"Here you can add, replace and delete featured images to your posts. Select "
+"one of the following actions and, if necessary, one or more images."
+msgstr ""
+"投稿のアイキャッチ画像の設定、変更、削除ができます。下記のラジオボタンの中から目的のアクションを1つ選び、必要に応じて1枚または複数の画像も選択してください。"
+
+#: admin/views/section_defaults.php:499
+msgid "How the rules work"
+msgstr "ルールの仕組み"
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/quick-featured-images"
+msgstr "http://wordpress.org/plugins/quick-featured-images"
+
+#. Author URI of the plugin
+msgid ""
+"https://www.kybernetik-services.com/?"
+"utm_source=wordpress_org&utm_medium=plugin&utm_campaign=quick-featured-"
+"images&utm_content=author"
+msgstr ""
+"https://www.kybernetik-services.com/?"
+"utm_source=wordpress_org&utm_medium=plugin&utm_campaign=quick-featured-"
+"images&utm_content=author"
+
+#: admin/views/section_defaults.php:244
+msgid ""
+"If activated the rule is used automatically while saving a post to overwrite "
+"an existing featured image with the new one based on the following rules. Do "
+"not use this if you want to keep manually set featured images."
+msgstr ""
+"オンにすると、すでに設定されているアイキャッチ画像も、以下のルールに基づいて決定される新しい画像で上書きされます。設定済のアイキャッチ画像を残したい場合は、このオプションをオンにしないでください。"
+
+#: admin/views/section_defaults.php:257
+msgid ""
+"If activated the rule is used automatically while saving a post to set the "
+"first content image - if available in the media library - as the featured "
+"image of the post. If the post has no content images the next rules will be "
+"applied."
+msgstr ""
+"オンにすると、投稿の保存時に、投稿の最初の画像 (メディアライブラリの画像) "
+"をアイキャッチ画像に設定するルールが適用されます。画像が見つからない場合は、次のルールが適用されます。"
+
+#: admin/views/form_start.php:61
+msgid "If the button does not work, read this:"
+msgstr "ボタンが機能しないときは:"
+
+#: admin/views/section_image.php:55
+msgid "If wrong action start again"
+msgstr "アクションを選択し直す"
+
+#: admin/views/section_image.php:14 admin/views/section_image.php:36
+msgid "If wrong image start again"
+msgstr "画像を選択し直す"
+
+#: admin/views/form_select.php:114
+msgid "If you encounter a white, blank page, read this"
+msgstr "ページが真っ白になったときは..."
+
+#: admin/views/form_select.php:88
+msgid ""
+"If you want select one of the following filters to narrow down the set of "
+"concerned posts and pages."
+msgstr "下記のフィルタで、対象の投稿やページを絞り込むことができます。"
+
+#: admin/views/form_back_to_selection.php:3
+msgid ""
+"If you want to change your former selection just go back by clicking on this "
+"button."
+msgstr "選択を変更するには、このボタンをクリックして戻ってください。"
+
+#: admin/class-quick-featured-images-tools.php:633
+msgid "Image height in pixels lower than"
+msgstr "画像の高さの最大サイズ"
+
+#: admin/views/section_image.php:12
+msgid "Image title"
+msgstr "画像タイトル"
+
+#: admin/class-quick-featured-images-tools.php:632
+msgid "Image width in pixels lower than"
+msgstr "画像の幅の最大サイズ"
+
+#: admin/views/form_start.php:17
+msgid "Important advice"
+msgstr "重要"
+
+#. Author of the plugin
+msgid "Kybernetik Services"
+msgstr "Kybernetik Services"
+
+#: admin/views/section_footer.php:20
+msgid ""
+"Let the thumbnails appear in the widget of the most recent posts with this "
+"fast plugin"
+msgstr "高速なプラグインで、最近の投稿ウィジェットにサムネイルを表示しましょう"
+
+#: admin/views/section_overview.php:17
+msgid "Manage featured images in a quick way"
+msgstr "アイキャッチ画像をすばやく設定"
+
+#: admin/views/section_defaults.php:507
+msgid "matched author. If not then..."
+msgstr "一致する作成者を探す。なければ..."
+
+#: admin/views/section_defaults.php:506
+msgid "matched category. If not then..."
+msgstr "一致するカテゴリーを探す。なければ..."
+
+#: admin/views/section_defaults.php:504
+msgid "matched custom taxonomy. If not then..."
+msgstr "一致するカスタムタクソノミーを探す。なければ..."
+
+#: admin/views/section_defaults.php:508
+msgid "matched post type. If not then..."
+msgstr "一致する投稿タイプを探す。なければ..."
+
+#: admin/views/section_defaults.php:505
+msgid "matched tag. If not then..."
+msgstr "一致するタグを探す。なければ..."
+
+#: admin/views/section_defaults.php:16
+msgid "matches"
+msgstr "条件"
+
+#: admin/class-quick-featured-images-settings.php:630
+msgid "Minimum user role to see the plugin in the backend"
+msgstr "プラグイン画面を表示するのに必要なユーザー権限"
+
+#: admin/views/form_back_to_selection.php:42
+msgid "Modify selection"
+msgstr "選択を変更する"
+
+#: admin/views/section_defaults.php:509
+msgid "no featured image."
+msgstr "アイキャッチ画像を設定しない。"
+
+#: admin/views/section_results.php:82
+msgid "No matches found."
+msgstr "条件を満たすものがありません。"
+
+#: admin/views/section_image.php:106
+msgid "No selected filters"
+msgstr "フィルタ未選択"
+
+#: admin/views/section_image.php:84
+msgid "No selected options"
+msgstr "オプション未選択"
+
+#: admin/views/form_confirm.php:16 admin/views/section_defaults.php:17
+#: admin/views/section_results.php:18
+msgid "No."
+msgstr "いいえ。"
+
+#: admin/views/form_select.php:9 admin/views/form_start.php:4
+#: admin/views/section_defaults.php:217
+msgid "Notice"
+msgstr "通知"
+
+#: admin/views/form_refine.php:9
+msgid ""
+"Now you can find posts and pages by matching parameters. Refine them here."
+msgstr "条件を満たす投稿と固定ページを抽出します。下記で条件を調整できます。"
+
+#: admin/views/form_select.php:121
+msgid ""
+"On the next page you can refine the filters. If you did not select any "
+"filter you will go to the preview list directly."
+msgstr "次のページでフィルタを調整できます。フィルタを選択していない場合は、プレビューリストが表示されます。"
+
+#: admin/views/form_select.php:85
+msgid "Optional: Add a filter"
+msgstr "フィルタを追加"
+
+#: admin/views/form_select.php:45
+msgid "Optional: Select options"
+msgstr "オプションを選択"
+
+#: admin/views/form_confirm.php:182
+msgid "or refine your selection with the following form fields."
+msgstr "または、下記のフォーム項目で選択を調整してください。"
+
+#: admin/views/form_select.php:53
+msgid "Overwrite existing featured images with new ones"
+msgstr "現在のアイキャッチ画像を新しい画像に置き換えます。"
+
+#: admin/class-quick-featured-images-tools.php:596
+msgid "Overwrite featured images"
+msgstr "アイキャッチ画像を上書きする"
+
+#: admin/class-quick-featured-images-tools.php:579
+msgid "Perform"
+msgstr "実行"
+
+#: admin/views/section_footer.php:18 admin/views/section_results.php:88
+msgid "Please rate it at wordpress.org!"
+msgstr "wordpress.org で評価してください!"
+
+#: admin/class-quick-featured-images-settings.php:432
+msgid "Post list column in the library"
+msgstr ""
+
+#: admin/views/section_defaults.php:59
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: admin/class-quick-featured-images-tools.php:601
+msgid "Post Type Filter"
+msgstr "投稿タイプフィルタ"
+
+#: admin/views/section_footer.php:19
+msgid ""
+"Post your questions and ideas about Quick Featured Images in the forum at "
+"wordpress.org!"
+msgstr "wordpress.org のフォーラムに Quick Featured Images の質問やアイデアを投稿してください!"
+
+#: admin/class-quick-featured-images-settings.php:396
+msgid "Posts list with image column"
+msgstr "画像カラム付の投稿リスト"
+
+#: admin/views/form_select.php:63
+msgid ""
+"Posts with featured images will be ignored, even if the Overwrite option is "
+"checked"
+msgstr "上書きオプションがオンになっていても、アイキャッチ画像が設定されている投稿は除外します。"
+
+#: admin/class-quick-featured-images-defaults.php:277
+msgid "Preset Featured Images"
+msgstr "アイキャッチ画像のプリセット"
+
+#: admin/views/form_refine.php:48 admin/views/form_select.php:29
+msgid "Preview filtering"
+msgstr "絞り込みのプレビュー"
+
+#: admin/views/form_confirm.php:1
+msgid "Preview of your selection"
+msgstr "選択のプレビュー"
+
+#: admin/views/form_select.php:47
+msgid "Process Options"
+msgstr "処理オプション"
+
+#: admin/views/section_header_progress.php:15
+msgid "Progress bar"
+msgstr "プログレスバー"
+
+#. Name of the plugin
+msgid "Quick Featured Images"
+msgstr "Quick Featured Images"
+
+#: admin/views/section_errormsg.php:3
+msgid "Reason"
+msgstr "原因"
+
+#: admin/class-quick-featured-images-tools.php:577
+msgid "Refine"
+msgstr "調整"
+
+#: admin/views/form_refine.php:8
+msgid "Refine filters"
+msgstr "フィルタの調整"
+
+#: admin/views/form_refine.php:1
+msgid "Refine your selection"
+msgstr "選択の調整"
+
+#: admin/views/form_select.php:37
+msgid "Refine your selections"
+msgstr "選択を調整する"
+
+#: admin/views/section_defaults.php:501
+msgid ""
+"Regardless of the order in the list the rules are applied in the following "
+"order until a rule and a property of the post fit together:"
+msgstr "リストの順番にかかわらず、投稿のプロパティがルールに当てはまるまで、下記の順番でルールが適用されます。"
+
+#: admin/class-quick-featured-images-columns.php:280
+#, php-format
+msgid "Remove &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;の削除"
+
+#: admin/class-quick-featured-images-tools.php:589
+msgid "Remove all featured images without existing image files"
+msgstr "ファイルが存在しないアイキャッチ画像を削除する"
+
+#: admin/class-quick-featured-images-tools.php:588
+msgid "Remove any image as featured image"
+msgstr "アイキャッチ画像を削除する"
+
+#: admin/class-quick-featured-images-tools.php:585
+msgid "Remove the selected image as featured image"
+msgstr "選択した画像が使用されているアイキャッチ画像を削除する"
+
+#: admin/class-quick-featured-images-tools.php:584
+msgid "Replace featured images by the selected image"
+msgstr "選択した画像で現在のアイキャッチ画像を置き換える"
+
+#: admin/views/section_results.php:1
+msgid "Results of the action"
+msgstr "実行結果"
+
+#: admin/views/form_select.php:94
+msgid "Search by post type. By default all posts and pages will be affected."
+msgstr "投稿タイプで絞り込む。デフォルトでは、すべての投稿と固定ページが対象。"
+
+#: admin/views/form_select.php:97
+msgid "Search posts by category"
+msgstr "カテゴリーで絞り込む"
+
+#: admin/views/form_select.php:100
+msgid "Search posts by tag"
+msgstr "タグで絞り込む"
+
+#: admin/class-quick-featured-images-tools.php:575
+msgid "Select"
+msgstr "選択"
+
+#: admin/views/filter_category.php:3
+msgid "Select a category"
+msgstr "カテゴリーを選択"
+
+#: admin/views/filter_tag.php:7
+msgid "Select a tag"
+msgstr "タグを選択"
+
+#: admin/views/form_start.php:20
+msgid "Select action"
+msgstr "アクションの選択"
+
+#: admin/class-quick-featured-images-tools.php:751
+msgid "Select an image from the media library."
+msgstr "メディアライブラリから画像を選択してください。"
+
+#: admin/views/section_defaults.php:285
+msgid ""
+"Select at least one post type, otherwise all post types will be considered."
+msgstr "投稿タイプを少なくとも1つ選択してください。選択しないと、すべての投稿タイプが対象になります。"
+
+#: admin/views/form_select.php:87
+msgid "Select filters"
+msgstr "フィルタの選択"
+
+#: admin/views/form_back_to_selection.php:2
+msgid "Select filters and options again"
+msgstr "フィルタとオプションを選択し直す"
+
+#: admin/views/filter_post_types.php:2
+msgid "Select post types"
+msgstr "投稿タイプを選択"
+
+#: admin/views/form_select.php:17
+msgid "Select the featured images you want to replace by the selected image."
+msgstr "新しく選んだ画像で置き換えたい、元のアイキャッチ画像を選択してください。"
+
+#: admin/views/form_start.php:35
+msgid ""
+"Select the image you want to add to, replace or delete from posts and pages "
+"by clicking on the following button."
+msgstr "下のボタンをクリックして、追加、変更、削除したい画像を選択してください。"
+
+#: admin/class-quick-featured-images-settings.php:666
+msgid "Select the minimum user role a user must have to see the plugin."
+msgstr "プラグイン画面を表示するのに必要なユーザー権限を選択してください。"
+
+# a period at the end of a sentence must be localizable
+#: admin/class-quick-featured-images-defaults.php:288
+msgid "Set default featured images for future posts"
+msgstr "デフォルトのアイキャッチ画像を設定します。"
+
+#: admin/class-quick-featured-images-columns.php:281
+#, php-format
+msgid "Set image for &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;の画像を設定"
+
+#: admin/class-quick-featured-images-tools.php:592
+msgid "Set multiple images randomly as featured images"
+msgstr "複数の画像をランダムにアイキャッチ画像に設定する"
+
+#: admin/class-quick-featured-images-tools.php:583
+msgid "Set the selected image as new featured image"
+msgstr "選択した画像を新たなアイキャッチ画像として設定する"
+
+#: admin/class-quick-featured-images-settings.php:232
+msgid "Set the visibility of columns of featured images in posts lists"
+msgstr "投稿/固定ページリストにアイキャッチ画像カラムを表示する設定を行います。"
+
+#: admin/class-quick-featured-images-tools.php:1937
+msgid "Set, replace, remove"
+msgstr "設定・変更・削除"
+
+#: admin/views/form_confirm.php:50
+msgid "Should the added featured images be removed from all listed posts?"
+msgstr "リストに表示されている投稿からアイキャッチ画像を削除しますか?"
+
+#: admin/views/form_confirm.php:41
+msgid ""
+"Should the current set featured image be replaced by the selected image at "
+"all listed posts?"
+msgstr "リストに表示されている投稿の現在のアイキャッチ画像を、選択した画像で置き換えますか?"
+
+#: admin/views/form_confirm.php:12
+msgid ""
+"Should the entries of featured images without image files be removed from "
+"the database?"
+msgstr "ファイルが存在しないアイキャッチ画像の指定をデータベースから削除しますか?"
+
+#: admin/views/form_confirm.php:47
+msgid "Should the future images be set as featured images at all listed posts?"
+msgstr "新しいアイキャッチ画像を、リストに表示された投稿のアイキャッチ画像として設定しますか?"
+
+#: admin/views/form_confirm.php:44
+msgid "Should the selected image be removed from all listed posts?"
+msgstr "リストに表示されている投稿から、選択した画像を削除しますか?"
+
+#: admin/views/form_confirm.php:35
+msgid "Should the selected image be set as featured image to all listed posts?"
+msgstr "リストに表示されている投稿に、選択した画像をアイキャッチ画像として割り当てますか?"
+
+#: admin/views/form_confirm.php:38
+msgid ""
+"Should the selected images be set randomly as featured images to all listed "
+"posts?"
+msgstr "リストに表示されている投稿に、選択した画像をアイキャッチ画像としてランダムに割り当てますか?"
+
+#: admin/class-quick-featured-images-settings.php:391
+msgid "Show additional column for featured images in lists of"
+msgstr "アイキャッチ画像カラムを表示するリスト"
+
+#: admin/class-quick-featured-images-settings.php:427
+msgid "Show additional column in the library for posts with featured images"
+msgstr ""
+
+#: admin/views/section_errormsg.php:5
+msgid "Solution"
+msgstr "対応策"
+
+#: admin/views/form_start.php:62
+msgid ""
+"Some users reported that this button would not work in some WordPress "
+"installations. If this should be the case you can take another way:"
+msgstr "このボタンが機能しないときは、下記をお試しください。"
+
+#: admin/views/form_confirm.php:182 admin/views/section_errormsg.php:8
+#: admin/views/section_results.php:86
+msgid "Start again"
+msgstr "やり直す"
+
+#: admin/class-quick-featured-images-tools.php:755
+msgid "Start again and select which action you want to apply."
+msgstr "[やり直す] をクリックしてアクションを選択します。"
+
+#: admin/class-quick-featured-images-tools.php:603
+msgid "Tag Filter"
+msgstr "タグフィルタ"
+
+# alt text for sample screen image
+#: admin/views/section_defaults.php:251
+msgid "Text with images in WordPress editor"
+msgstr "WordPressエディタ内の画像とテキスト"
+
+#: admin/class-quick-featured-images-settings.php:705
+msgid ""
+"The additional column in the media library lists all posts for which the "
+"image is set as featured."
+msgstr ""
+
+#: admin/class-quick-featured-images-settings.php:687
+msgid ""
+"The additional columns give you a quick overview about all used featured "
+"images for every post. The Featured Image column is sortable."
+msgstr "投稿リストに画像カラムを追加して、設定済のすべてのアイキャッチ画像を素早く確認することができます。アイキャッチ画像カラムは並べ替えできます。"
+
+#: admin/views/form_start.php:6 admin/views/section_defaults.php:219
+msgid ""
+"The current theme does not support featured images. Anyway you can use this "
+"plugin. The effects are stored and will be visible in a theme which supports "
+"featured images."
+msgstr ""
+"使用中のテーマはアイキャッチ画像をサポートしていませんが、このプラグインの利用は可能です。設定内容は保存され、アイキャッチ画像が利用可能なテーマを有効化すると表示されます。"
+
+#: admin/class-quick-featured-images-tools.php:758
+#, php-format
+msgid "The input field %s has an invalid value."
+msgstr "入力フィールド %s の値が正しくありません。"
+
+#: admin/class-quick-featured-images-tools.php:742
+#, php-format
+msgid "The input field %s is empty."
+msgstr "入力フィールド %s が空白です。"
+
+#: admin/views/form_confirm.php:54 admin/views/section_results.php:27
+msgid ""
+"The list is in alphabetical order according to post title. You can edit a "
+"post in a new window by clicking on its link in the list."
+msgstr "リストは投稿タイトル名の順に並んでいます。リスト中のタイトル名のリンクをクリックすると、新規ウィンドウで投稿を編集できます。"
+
+#: admin/class-quick-featured-images-admin.php:278
+#, php-format
+msgid ""
+"The plugin requires WordPress version %s or higher. Therefore, WordPress did "
+"not activate it. If you want to use this plugin update the Wordpress files "
+"to the latest version."
+msgstr ""
+"このプラグインの動作には WordPress バージョン %s "
+"以上が必要なため、有効化できませんでした。このプラグインを使用するには、Wordpress を最新バージョンに更新してください。"
+
+#: admin/class-quick-featured-images-settings.php:671
+#, php-format
+msgid ""
+"The rules as set in &#8220;%s&#8221; work on posts independently of this "
+"setting."
+msgstr "&#8220;%s&#8221; で指定されたルールは、この権限の設定には影響されずに機能します。"
+
+#: admin/views/filter_category.php:14
+msgid "The selection of a category includes all of its subcategories."
+msgstr ""
+
+#: admin/views/form_refine.php:54
+msgid ""
+"There are no selected filters. Modify your filter selection or just go on by "
+"clicking on the next button."
+msgstr "フィルタが選択されていません。フィルタの選択を変更するか、[次へ]ボタンをクリックしてください。"
+
+#: admin/views/filter_tag.php:20
+msgid "There are no tags in use."
+msgstr "使用されているタグはありません。"
+
+#: admin/class-quick-featured-images-tools.php:750
+msgid "There is no selected image."
+msgstr "画像が選択されていません。"
+
+#: admin/views/form_start.php:18
+msgid ""
+"There is no undo function! It is strongly recommended that you make a backup "
+"of the WordPress database before you perform mass changes."
+msgstr "取り消し機能はありません。大幅な変更を行う前に、WordPress のデータベースのバックアップを取ることを強くお勧めします。"
+
+#: admin/views/form_start.php:102
+msgid "These actions do not require a selected image."
+msgstr "次のアクションは、画像を選択する必要はありません。"
+
+#: admin/views/form_start.php:68
+msgid ""
+"These actions require at least one selected image with the following button."
+msgstr "次のアクションは、下のボタンで少なくとも1枚の画像を選択する必要があります。"
+
+#: admin/views/form_start.php:22
+msgid "These actions require to select an image with the following button."
+msgstr "次のアクションは、下のボタンで画像を1枚選択する必要があります。"
+
+#: admin/class-quick-featured-images-settings.php:677
+msgid "This page is accessible for administrators only."
+msgstr "このページには管理者だけがアクセスできます。"
+
+#: admin/class-quick-featured-images-settings.php:676
+msgid ""
+"This setting controls as well whether a user will see in an image column the "
+"thumbnails with action links or the thumbnails only. To switch image columns "
+"on and off use the section above."
+msgstr ""
+"権限がないユーザーのアイキャッチ画像カラムにはサムネイルだけが表示されますが、権限があるユーザーではアクションリンク付のサムネイルが表示されます。アイキャッチ画像カラムそのものを表示するかどうかは、上のセクションで切り替えてください。"
+
+#: admin/views/form_select.php:116
+#| msgid ""
+#| "This way is not as fast as one single run, but still much faster than "
+#| "setting the images for each post manually."
+msgid ""
+"To achieve that use the filters and repeat the process until your task is "
+"done. This way is not as fast as one single run, but still much faster than "
+"setting the images for each post manually."
+msgstr ""
+
+#: admin/views/form_select.php:19 admin/views/form_start.php:80
+msgid ""
+"To select multiple images click on the button and use the CTRL key while "
+"clicking on the images."
+msgstr "複数の画像を選択するには、下のボタンをクリックした後、Ctrlキーを押しながら画像をクリックしてください。"
+
+#: admin/views/section_defaults.php:211
+msgid ""
+"To use a rule choose the image and set both the taxonomy and the value. A "
+"rule which is defined only partially will be ignored."
+msgstr "ルールを設定するには、画像を選んで、分類と値の両方を設定する必要があります。一方だけ設定されたルールは無視されます。"
+
+#: admin/class-quick-featured-images-tools.php:743
+msgid "Type in a value into the input field."
+msgstr "入力フィールドに値を入力してください。"
+
+#: admin/class-quick-featured-images-tools.php:759
+msgid "Type in valid values in the input field."
+msgstr "入力フィールドに正しい値を入力してください。"
+
+#: admin/class-quick-featured-images-tools.php:763
+msgid "Type in values stored by WordPress."
+msgstr "WordPressに保存されている値を入力してください。"
+
+#: admin/views/section_results.php:20
+msgid "Unchanged"
+msgstr "変更なし"
+
+#: admin/views/form_select.php:31 admin/views/form_start.php:119
+msgid "Use CTRL for multiple choice"
+msgstr "Ctrlキーを押しながら複数選択"
+
+#. title of the section.
+#: admin/class-quick-featured-images-settings.php:455
+msgid "Visibility of the plugin"
+msgstr "プラグイン画面の表示"
+
+#: admin/class-quick-featured-images-admin.php:484
+#, php-format
+msgid "Welcome to %s! You can find the plugin at %s."
+msgstr "%s へようこそ! %s でプラグインにアクセスできます。"
+
+#: admin/views/form_start.php:12
+msgid "What do you want to do?"
+msgstr "やりたいことは何ですか?"
+
+#: admin/views/form_refine.php:10
+msgid "Whatever you do: You can confirm your choice on the next page."
+msgstr "次のページで調整した結果を確認できます。"
+
+#: admin/views/form_start.php:15
+msgid "Whatever you select: You can refine your choice on the next page."
+msgstr "ここで選択した内容は、次のページで調整できます。"
+
+#: admin/class-quick-featured-images-settings.php:463
+msgid "Which user role may see the plugin?"
+msgstr "プラグイン画面を表示できるユーザー権限"
+
+#: admin/views/form_confirm.php:19
+msgid "written on"
+msgstr "作成日:"
+
+#: admin/class-quick-featured-images-tools.php:473
+#, php-format
+msgid "Wrong image ID %d"
+msgstr "誤った画像ID %d"
+
+#: admin/views/section_header_progress.php:17
+msgid "You are here"
+msgstr "現在"
+
+#: admin/views/form_select.php:38 admin/views/form_select.php:48
+msgid "You can control the process with the following options."
+msgstr "下記のオプションで処理内容や対象を調整できます。"
+
+#: admin/views/form_confirm.php:121
+msgid "You can not undo the operation!"
+msgstr "実行後の取り消しはできません!"
+
+#: admin/views/form_select.php:89
+msgid ""
+"You can select multiple filters. They will return an intersection of their "
+"results."
+msgstr "複数のフィルタを選択できます。選択したフィルタのすべての条件を満たすものが対象になります。"
+
+#: admin/views/form_select.php:18
+msgid "You can select multiple images. Select at least one image."
+msgstr "複数の画像を選択できます。少なくとも1つ選んでください。"
+
+#: admin/views/form_select.php:11
+msgid ""
+"You did not have selected an image from the list below. To go on select at "
+"least one image you want to replace by the selected image."
+msgstr "下のリストで画像が選択されていません。置き換える画像を少なくとも1つ選んでください。"
+
+#: admin/class-quick-featured-images-tools.php:754
+#: admin/views/section_image.php:51
+msgid "You have not selected an action."
+msgstr "アクションが選択されていません。"
+
+#: admin/views/section_image.php:42
+msgid "Your selected action"
+msgstr "選択したアクション"
+
+#: admin/views/section_image.php:90
+msgid "Your selected filters"
+msgstr "選択したフィルタ"
+
+#: admin/views/section_image.php:68
+msgid "Your selected options"
+msgstr "選択したオプション"
+
+#: admin/views/section_image.php:9
+msgid "Your selected thumbnail"
+msgstr "選択したサムネイル"
+
+#: admin/views/section_image.php:23
+msgid "Your selected thumbnails"
+msgstr "選択したサムネイル"
+
+#: admin/views/section_image.php:1
+msgid "Your selection"
+msgstr "選択"
+
+#. Description of the plugin
+#: admin/class-quick-featured-images-admin.php:215
+msgid ""
+"Your time-saving Swiss Army Knife for featured images: Set, replace and "
+"delete them in bulk, in posts lists and set default images for future posts."
+msgstr ""
+"アイキャッチ画像をまとめて設定・変更・削除したり、デフォルトのアイキャッチ画像を設定したりできる、スイス・アーミーナイフのように多機能で便利なプラグインです。"
