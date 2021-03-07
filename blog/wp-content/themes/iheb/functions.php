@@ -337,3 +337,7 @@ require get_template_directory() . '/inc/customizer.php';
  * Block Patterns.
  */
 require get_template_directory() . '/inc/block-patterns.php';
+
+
+	
+add_theme_support( 'post-thumbnails' );

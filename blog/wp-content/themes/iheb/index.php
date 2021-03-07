@@ -1,21 +1,3 @@
-<?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since Twenty Nineteen 1.0
- */
-
-get_header();
-?>
 
 <!doctype html>
 <html lang="en-US">
@@ -24,13 +6,8 @@ get_header();
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="profile" href="https://gmpg.org/xfn/11">
-  <link media="all" href="./style.css" rel="stylesheet" />
+
   <title>Jabri Iheb</title>
-  <link rel='dns-prefetch' href='//maps.googleapis.com' />
-  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-  <link rel="alternate" type="application/rss+xml" title="RyanCV - vCard / Resume / CV WordPress Theme &raquo; Feed" href="https://ryancv.bslthemes.com/v4/feed/" />
-  <link rel="alternate" type="application/rss+xml" title="RyanCV - vCard / Resume / CV WordPress Theme &raquo; Comments Feed" href="https://ryancv.bslthemes.com/v4/comments/feed/" />
   <link rel='stylesheet' id='ryancv-fonts-css' href='//fonts.googleapis.com/css?family=Poppins%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;subset=latin%2Clatin-ext'
     type='text/css' media='all' />
   <script type='text/javascript' src='https://ryancv.bslthemes.com/v4/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
@@ -86,7 +63,6 @@ get_header();
               <li data-id="menu-item-110" class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="#resume" class="one-page-menu-item"><i class="fas fa-address-card"></i> <br> Resume</a></li>
               <li data-id="menu-item-109" class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="#works" class="one-page-menu-item"><i class="fas fa-briefcase"></i> <br>Works</a></li>
               <li data-id="menu-item-107" class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="#blog" class="one-page-menu-item"><i class="fab fa-blogger"></i> <br> Blog</a></li>
-              <li data-id="menu-item-108" class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="#contacts" class="one-page-menu-item"><i class="fas fa-envelope"></i> <br> Contact</a></li>
             </ul>
           </div>
         </div>
@@ -117,8 +93,9 @@ get_header();
               <a target="_blank" href="https://www.facebook.com/messages/t/100005999116611"> <i class="fab fa-facebook-messenger"></i> </a>
               <a target="_blank" href="https://www.linkedin.com/in/ihebjabri/"> <i class="fab fa-linkedin"></i> </a></div>
           </div>
-          <div class="lnks"> <a href="https://ryancv.bslthemes.com/v4/" class="lnk"> <span class="text">Download CV</span> <span class="ion ion-archive"></span> </a> <a href="https://ryancv.bslthemes.com/v4/#contacts" class="lnk"> <span
-                class="text">Contact Me</span> <span class="ion ion-android-send"></span> </a></div>
+          <div class="lnks"> <a href="https://ryancv.bslthemes.com/v4/" class="lnk"> 
+          <span class="text">Download CV </span> <span class="ion ion-archive"></span> </a> 
+          </div>
         </div>
       </div>
       <div class="s_overlay"></div>
@@ -187,7 +164,7 @@ get_header();
               <div class="col col-d-6 col-t-12 col-m-12 border-line-v">
                 <div class="info-list">
                   <ul>
-                    <li><strong>Experience:</strong> 5 year</li>
+                    <li><strong>Experience:</strong> 3 year</li>
                     <li><strong>Residence:</strong> Tunisia</li>
                     <li><strong>Freelance:</strong> Available</li>
                     <li><strong>Address:</strong> Beja, Tunisia</li>
@@ -519,7 +496,7 @@ get_header();
               <div class="clear"></div>
             </div>
           </div>
-          <div class="content testimonials">
+        <!--  <div class="content testimonials">
             <div class="title">Testimonials</div>
             <div class="row testimonial-items">
               <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
@@ -530,9 +507,9 @@ get_header();
                         <div class="revs-item">
                           <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                           <div class="user">
-                            <div class="img"><noscript><img src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2019/05/rev2-92x92.jpg" alt="Helen Floyd" /></noscript><img class="lazyload"
-                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2019/05/rev2-92x92.jpg"
-                                alt="Helen Floyd" /></div>
+                            <div class="img">
+ 
+                            </div>
                             <div class="info">
                               <div class="name">Helen Floyd</div>
                               <div class="company">Art Director</div>
@@ -560,9 +537,8 @@ get_header();
                         <div class="revs-item">
                           <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                           <div class="user">
-                            <div class="img"><noscript><img src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2019/05/rev2-92x92.jpg" alt="John Doe" /></noscript><img class="lazyload"
-                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2019/05/rev2-92x92.jpg"
-                                alt="John Doe" /></div>
+                            <div class="img">
+                            </div>
                             <div class="info">
                               <div class="name">John Doe</div>
                               <div class="company">Art Director</div>
@@ -578,140 +554,46 @@ get_header();
               </div>
               <div class="clear"></div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="card-inner" id="card-works">
         <div class="card-wrap">
           <div class="content works">
             <div class="title ">Recent Works</div>
-            <div class="filter-menu filter-button-group">
+           <!-- <div class="filter-menu filter-button-group">
               <div class="f_btn active"> <label><input type="radio" name="fl_radio" value=".grid-item" />All</label></div>
               <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-video" />Web</label></div>
               <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-photo" />Mobile</label></div>
-            </div>
+            </div> -->
             <div class="row grid-items border-line-v">
-              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-photo ">
-                <div class="box-item">
-                  <div class="image"> <a href="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1.jpg" class="has-popup-image"> <noscript><img width="600" height="801"
-                          src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1-600x801.jpg" class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                          srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1-600x801.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1-225x300.jpg 225w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1.jpg 700w"
-                          sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="801" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20801%22%3E%3C/svg%3E'
-                        data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1-600x801.jpg" class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                        data-srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1-600x801.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1-225x300.jpg 225w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work1.jpg 700w"
-                        data-sizes="(max-width: 600px) 100vw, 600px" /> <span class="info"> <span class="ion ion-image"></span> </span> </a></div>
-                  <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/portfolio-archive/motorcycle-helmet/" class="name">Motorcycle Helmet</a>
-                    <div class="category">Photo</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-video ">
-                <div class="box-item">
-                  <div class="image"> <a href="https://vimeo.com/97102654" class="has-popup-video"> <noscript><img width="600" height="400" src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work2-600x400.jpg"
-                          class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                          srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work2-600x400.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work2-300x200.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work2.jpg 700w"
-                          sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="400" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20400%22%3E%3C/svg%3E'
-                        data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work2-600x400.jpg" class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                        data-srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work2-600x400.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work2-300x200.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work2.jpg 700w"
-                        data-sizes="(max-width: 600px) 100vw, 600px" /> <span class="info"> <span class="ion ion-videocamera"></span> </span> </a></div>
-                  <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/portfolio-archive/minimalism-shapes/" class="name">Minimalism Shapes</a>
-                    <div class="category">Video</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-music ">
-                <div class="box-item">
-                  <div class="image"> <a href="https://w.soundcloud.com/player/?visual=true&#038;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&#038;show_artwork=true" class="has-popup-music"> <noscript><img width="600" height="400"
-                          src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work3-600x400.jpg" class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                          srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work3-600x400.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work3-300x200.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work3.jpg 700w"
-                          sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="400" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20400%22%3E%3C/svg%3E'
-                        data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work3-600x400.jpg" class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                        data-srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work3-600x400.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work3-300x200.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work3.jpg 700w"
-                        data-sizes="(max-width: 600px) 100vw, 600px" /> <span class="info"> <span class="ion ion-music-note"></span> </span> </a></div>
-                  <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/portfolio-archive/staircase/" class="name">Staircase</a>
-                    <div class="category">Music</div>
-                  </div>
-                </div>
-              </div>
+                
+            <?php
+                  $args = array (
+                      'showposts' => '5',
+                      'category_name' => 'works',
+                      'paged' => $paged
+                  );
+                  $the_query = new WP_Query( $args );
+
+                  if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+              ?>
+
+
+           
               <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-design ">
                 <div class="box-item">
-                  <div class="image"> <a href="#popup-44" class="has-popup-media"> <noscript><img width="600" height="500" src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work4-600x500.jpg"
+                  <div class="image"> <a href="#popup-26" class="has-popup-media">
+                  <img width="600" height="399"  src="<?php the_post_thumbnail_url() ?>"
                           class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                          srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work4-600x500.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work4-300x250.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work4.jpg 700w"
-                          sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="500" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20500%22%3E%3C/svg%3E'
-                        data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work4-600x500.jpg" class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                        data-srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work4-600x500.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work4-300x250.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work4.jpg 700w"
-                        data-sizes="(max-width: 600px) 100vw, 600px" /> <span class="info"> <span class="ion ion-search"></span> </span> </a></div>
-                  <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/portfolio-archive/mobile-application/" class="name">Mobile Application</a>
-                    <div class="category">Design</div>
-                  </div>
-                  <div id="popup-44" class="popup-box mfp-fade mfp-hide">
-                    <div class="content">
-                      <div class="preloader-popup">
-                        <div class="centrize full-width">
-                          <div class="vertical-center">
-                            <div class="spinner default-circle"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-photo ">
-                <div class="box-item">
-                  <div class="image"> <a href="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5.jpg" class="has-popup-image"> <noscript><img width="600" height="700"
-                          src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5-600x700.jpg" class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                          srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5-600x700.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5-257x300.jpg 257w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5.jpg 700w"
-                          sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="700" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20700%22%3E%3C/svg%3E'
-                        data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5-600x700.jpg" class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                        data-srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5-600x700.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5-257x300.jpg 257w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work5.jpg 700w"
-                        data-sizes="(max-width: 600px) 100vw, 600px" /> <span class="info"> <span class="ion ion-image"></span> </span> </a></div>
-                  <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/portfolio-archive/gereal-travels/" class="name">Gereal Travels</a>
-                    <div class="category">Photo</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-music ">
-                <div class="box-item">
-                  <div class="image"> <a href="https://w.soundcloud.com/player/?visual=true&#038;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&#038;show_artwork=true" class="has-popup-music"> <noscript><img width="600" height="450"
-                          src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work8-600x450.jpg" class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                          srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work8-600x450.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work8-300x225.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work8.jpg 700w"
-                          sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="450" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20450%22%3E%3C/svg%3E'
-                        data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work8-600x450.jpg" class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                        data-srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work8-600x450.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work8-300x225.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work8.jpg 700w"
-                        data-sizes="(max-width: 600px) 100vw, 600px" /> <span class="info"> <span class="ion ion-music-note"></span> </span> </a></div>
-                  <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/portfolio-archive/daylight-entrance/" class="name">Daylight Entrance</a>
-                    <div class="category">Music</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-video ">
-                <div class="box-item">
-                  <div class="image"> <a href="https://vimeo.com/97102654" class="has-popup-video"> <noscript><img width="600" height="800" src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work6-600x800.jpg"
-                          class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                          srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work6-600x800.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work6-225x300.jpg 225w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work6.jpg 700w"
-                          sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="800" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20800%22%3E%3C/svg%3E'
-                        data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work6-600x800.jpg" class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                        data-srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work6-600x800.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work6-225x300.jpg 225w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work6.jpg 700w"
-                        data-sizes="(max-width: 600px) 100vw, 600px" /> <span class="info"> <span class="ion ion-videocamera"></span> </span> </a></div>
-                  <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/portfolio-archive/architecture/" class="name">Architecture</a>
-                    <div class="category">Video</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-design ">
-                <div class="box-item">
-                  <div class="image"> <a href="#popup-26" class="has-popup-media"> <noscript><img width="600" height="399" src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work7-600x399.jpg"
-                          class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                          srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work7-600x399.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work7-300x200.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work7.jpg 700w"
-                          sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="399" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20399%22%3E%3C/svg%3E'
-                        data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work7-600x399.jpg" class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
-                        data-srcset="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work7-600x399.jpg 600w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work7-300x200.jpg 300w, https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/work7.jpg 700w"
-                        data-sizes="(max-width: 600px) 100vw, 600px" /> <span class="info"> <span class="ion ion-search"></span> </span> </a></div>
-                  <div class="desc"> <a href="https://ryancv.bslthemes.com/v4/portfolio-archive/social-website/" class="name">Social Website</a>
-                    <div class="category">Design</div>
-                  </div>
+                          sizes="(max-width: 600px) 100vw, 600px" /><span class="info"> <span class="ion ion-search"></span> </span> </a></div>
+                  <div class="desc"> 
+                  <a href="<?php the_permalink(); ?>" class="name"><?php the_title(); ?></a>
+                    <div class="category"> <?php the_category( ', ' ); ?> </div>
+                
+                       </div>
+
+
                   <div id="popup-26" class="popup-box mfp-fade mfp-hide">
                     <div class="content">
                       <div class="preloader-popup">
@@ -725,6 +607,18 @@ get_header();
                   </div>
                 </div>
               </div>
+
+              <?php endwhile; else : ?>
+
+
+                <!-- The very first "if" tested to see if there were any Posts to -->
+                <!-- display.  This "else" part tells what do if there weren't any. -->
+                <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+
+
+                <!-- REALLY stop The Loop. -->
+                <?php endif; ?>
+              
               <div class="clear"></div>
             </div>
           </div>
@@ -737,42 +631,65 @@ get_header();
             <div class="row border-line-v">
 
 
-			<!-- foreach posts -->
+		          <!-- foreach posts -->
+                
+        <?php
+          
 
-           <?php
-				$recent_posts = wp_get_recent_posts(array(
-					'numberposts' => 5, // Number of recent posts thumbnails to display
-					'post_status' => 'publish' // Show only the published posts
-				));
-				foreach( $recent_posts as $post_item ) : ?>
+                  $args = array (
+                      'showposts' => '5',
+                      'order' => 'DESC',
+                      'category_name' => 'post'
+                  );
+                  $the_query = new WP_Query( $args );
 
-					<div class="col col-d-6 col-t-6 col-m-12">
-						<div class="box-item">
-						<div id="post-115" class="post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-design category-music tag-code tag-html tag-plugin tag-web">
-							<div class="image"> <a class="post-thumbnail" href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/" aria-hidden="true" tabindex="-1"> <noscript><img width="590" height="330"
-									src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog1-590x330.jpg" class="attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Creativity Is More Than" /></noscript><img width="590"
-								height="330" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20590%20330%22%3E%3C/svg%3E' data-src="https://ryancv.bslthemes.com/v4/wp-content/uploads/2018/11/blog1-590x330.jpg"
-								class="lazyload attachment-ryancv_590x330 size-ryancv_590x330 wp-post-image" alt="Creativity Is More Than" /> <span class="info"> <span class="ion ion-document-text"></span> </span> </a></div>
-							<div class="desc"> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/"> <span class="date"> <?php echo get_the_date('d M Y', $post_item); ?></span> </a> <a
-								href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/" class="name"><?php echo $post_item['post_title'] ?></a>
-							<div class="text">
-						<?php 
-							$trimtitle = get_the_content($post_item->ID);
-                            $shorttitle = wp_trim_words( $trimtitle, $num_words = 15, $more = '… ' );
-						 ?> 
-              
-								<p> <?php echo the_content($post_item); ?> </p>
-							</div>
-							</div>
-						</div>
-						</div>
-					</div>
-					
-					
-				<?php endforeach; ?>
+                  if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+
+             
+              ?>
 
 
-         	 <!-- end posts --> 
+           
+              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-design ">
+                <div class="box-item">
+                  <div class="image"> <a href="#popup-26" class="has-popup-media">
+                  <img width="600" height="399"  
+                          src="<?php the_post_thumbnail_url() ?> "
+                          class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image" alt=""
+                          sizes="(max-width: 600px) 100vw, 600px" /><span class="info"> <span class="ion ion-search"></span> </span> </a></div>
+                  <div class="desc"> 
+                  <a href="<?php the_permalink(); ?>" class="name"><?php echo wp_trim_words(get_the_title(),  3 ) ; ?></a>
+                    <div class="category"> <?php the_category( ', ' ); ?> </div>
+                       </div>
+
+
+                  <div id="popup-26" class="popup-box mfp-fade mfp-hide">
+                    <div class="content">
+                      <div class="preloader-popup">
+                        <div class="centrize full-width">
+                          <div class="vertical-center">
+                            <div class="spinner default-circle"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+
+              <?php endwhile; else : ?>
+
+
+                <!-- The very first "if" tested to see if there were any Posts to -->
+                <!-- display.  This "else" part tells what do if there weren't any. -->
+                <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+
+
+                <!-- REALLY stop The Loop. -->
+                <?php endif; ?>
+
+        <!-- end posts --> 
 
               <div class="clear"></div>
             </div>
@@ -780,68 +697,8 @@ get_header();
             <div class="pager">
               <nav class="navigation pagination" role="navigation" aria-label=" ">
                 <h2 class="screen-reader-text"></h2>
-                <div class="nav-links"><span aria-current="page" class="page-numbers current">1</span> <a class="page-numbers" href="https://ryancv.bslthemes.com/v4/page/2/#blog">2</a> <a class="next page-numbers"
-                    href="https://ryancv.bslthemes.com/v4/page/2/#blog">Next</a></div>
+                <div class="nav-links">  <a class="next page-numbers" href="<?php echo get_category_link(3); ?>">Next</a></div>
               </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-inner" id="card-contacts">
-        <div class="card-wrap">
-          <div class="content contacts">
-            <div class="title">Get in Touch</div>
-            <div class="row">
-              <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-                <div class="map acf-map">
-                  <div class="marker" data-lat="36.778261" data-lng="-119.41793239999998"></div>
-                </div>
-                <div class="info-list">
-                  <ul>
-                    <li> <strong>Address:</strong> California, USA</li>
-                    <li> <strong>Email:</strong> adlard@example.com</li>
-                    <li> <strong>Phone:</strong> +123 654 78900</li>
-                    <li> <strong>Freelance:</strong> Available</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="clear"></div>
-            </div>
-          </div>
-          <div class="content contacts">
-            <div class="title">Contact Form</div>
-            <div class="row">
-              <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-                <div class="contact_form">
-                  <div role="form" class="wpcf7" id="wpcf7-f8-o1" lang="en-US" dir="ltr">
-                    <div class="screen-reader-response">
-                      <p role="status" aria-live="polite" aria-atomic="true"></p>
-                      <ul></ul>
-                    </div>
-                    <form action="/v4/#wpcf7-f8-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-                      <div style="display: none;"> <input type="hidden" name="_wpcf7" value="8" /> <input type="hidden" name="_wpcf7_version" value="5.3" /> <input type="hidden" name="_wpcf7_locale" value="en_US" /> <input type="hidden"
-                          name="_wpcf7_unit_tag" value="wpcf7-f8-o1" /> <input type="hidden" name="_wpcf7_container_post" value="0" /> <input type="hidden" name="_wpcf7_posted_data_hash" value="" /></div>
-                      <div class="row">
-                        <div class="col col-d-6 col-t-6 col-m-12">
-                          <div class="group-val"> <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
-                                aria-invalid="false" placeholder="Full Name" /></span></div>
-                        </div>
-                        <div class="col col-d-6 col-t-6 col-m-12">
-                          <div class="group-val"> <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40"
-                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span></div>
-                        </div>
-                        <div class="col col-d-12 col-t-12 col-m-12">
-                          <div class="group-val"> <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true"
-                                aria-invalid="false" placeholder="Your Message"></textarea></span></div>
-                        </div>
-                      </div>
-                      <div class="align-left"><button type="submit" class="button"><span class="text">Send Message</span><span class="arrow"></span></button></div>
-                      <div class="wpcf7-response-output" aria-hidden="true"></div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <div class="clear"></div>
             </div>
           </div>
         </div>
@@ -862,11 +719,12 @@ get_header();
   <link rel='stylesheet' id='font-awesome-css' href='https://use.fontawesome.com/releases/v5.15.2/css/all.css?ver=5.5.3' type='text/css' media='all' />
 
   <script defer src="https://ryancv.bslthemes.com/v4/wp-content/cache/autoptimize/js/autoptimize_b3c0066ab9193b808d3369d2f76bcc24.js"></script>
+
+ 
+
 </body>
 
 </html>
 
 
 
-<?php
-get_footer();
