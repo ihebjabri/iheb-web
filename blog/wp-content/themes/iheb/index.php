@@ -648,7 +648,6 @@
              
               ?>
 
-
            
               <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-design ">
                 <div class="box-item">
