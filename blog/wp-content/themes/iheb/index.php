@@ -1,4 +1,6 @@
 
+
+
 <!doctype html>
 <html lang="en-US">
 
@@ -8,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <title>Jabri Iheb</title>
-  <link rel='stylesheet' id='ryancv-fonts-css' href='//fonts.googleapis.com/css?family=Poppins%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;subset=latin%2Clatin-ext'
+  <link rel='stylesheet' id='ryancv-fonts-css' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;subset=latin%2Clatin-ext'
     type='text/css' media='all' />
   <script type='text/javascript' src='https://ryancv.bslthemes.com/v4/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/all.css" type="text/css" media="screen" />
@@ -63,6 +65,8 @@
               <li data-id="menu-item-110" class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="#resume" class="one-page-menu-item"><i class="fas fa-address-card"></i> <br> Resume</a></li>
               <li data-id="menu-item-109" class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="#works" class="one-page-menu-item"><i class="fas fa-briefcase"></i> <br>Works</a></li>
               <li data-id="menu-item-107" class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="#blog" class="one-page-menu-item"><i class="fab fa-blogger"></i> <br> Blog</a></li>
+              <li data-id="menu-item-108"  class=" menu-item menu-item-type-post_type menu-item-object-page"><a href="#cv"class="one-page-menu-item"><i class="fas fa-cloud-download-alt"></i> <br> CV</a></li>
+          
             </ul>
           </div>
         </div>
@@ -93,8 +97,8 @@
               <a target="_blank" href="https://www.facebook.com/messages/t/100005999116611"> <i class="fab fa-facebook-messenger"></i> </a>
               <a target="_blank" href="https://www.linkedin.com/in/ihebjabri/"> <i class="fab fa-linkedin"></i> </a></div>
           </div>
-          <div class="lnks"> <a href="https://ryancv.bslthemes.com/v4/" class="lnk"> 
-          <span class="text">Download CV </span> <span class="ion ion-archive"></span> </a> 
+          <div class="lnks"> <a href="#cv" class="lnk"> 
+          <span class="text">Download CV </span>   </a> 
           </div>
         </div>
       </div>
@@ -109,22 +113,15 @@
             <section id="recent-posts-2" class="widget widget_recent_entries">
               <h2 class="widget-title">Recent Posts</h2>
               <ul>
-                <li> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/">Creativity Is More Than</a></li>
-                <li> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/designing-the-perfect-notification-ux/">Designing the perfect</a></li>
-                <li> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/music-player-design/">Music Player Design</a></li>
-                <li> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song-and-dance-act/">A Song And Dance Act</a></li>
-                <li> <a href="https://ryancv.bslthemes.com/v4/2018/11/16/by-spite-about-do-of-do-allow/">By spite about do of allow</a></li>
+                <li> <a href="#">Creativity Is More Than</a></li>
+
               </ul>
             </section>
             <section id="recent-comments-2" class="widget widget_recent_comments">
               <h2 class="widget-title">Recent Comments</h2>
               <ul id="recentcomments">
-                <li class="recentcomments"><span class="comment-author-link">JOHN SMITH</span> on <a href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/#comment-7">Creativity Is More Than</a></li>
-                <li class="recentcomments"><span class="comment-author-link">ADAM SMITH</span> on <a href="https://ryancv.bslthemes.com/v4/2018/11/16/creativity-is-more-than-a-song/#comment-6">Creativity Is More Than</a></li>
-                <li class="recentcomments"><span class="comment-author-link">admin</span> on <a href="https://ryancv.bslthemes.com/v4/2018/11/16/designing-the-perfect-notification-ux/#comment-5">Designing the perfect</a></li>
-                <li class="recentcomments"><span class="comment-author-link">admin</span> on <a href="https://ryancv.bslthemes.com/v4/2018/11/16/designing-the-perfect-notification-ux/#comment-4">Designing the perfect</a></li>
-                <li class="recentcomments"><span class="comment-author-link">James</span> on <a href="https://ryancv.bslthemes.com/v4/2018/11/16/designing-the-perfect-notification-ux/#comment-3">Designing the perfect</a></li>
-              </ul>
+                <li class="recentcomments"><span class="comment-author-link">JOHN SMITH</span> on <a href="#">Creativity Is More Than</a></li>
+             </ul>
             </section>
             <section id="archives-2" class="widget widget_archive">
               <h2 class="widget-title">Archives</h2>
@@ -559,8 +556,11 @@
       </div>
       <div class="card-inner" id="card-works">
         <div class="card-wrap">
-          <div class="content works">
+          <div class="content works">  
             <div class="title ">Recent Works</div>
+            <div class="filter-menu filter-button-group">
+            <div class="f_btn active"> <a href="<?php echo get_category_link(2); ?>">  <i class="fas fa-list-ul"></i>  </a> </div>
+            </div>
            <!-- <div class="filter-menu filter-button-group">
               <div class="f_btn active"> <label><input type="radio" name="fl_radio" value=".grid-item" />All</label></div>
               <div class="f_btn"> <label><input type="radio" name="fl_radio" value=".f-video" />Web</label></div>
@@ -589,7 +589,7 @@
                           sizes="(max-width: 600px) 100vw, 600px" /><span class="info"> <span class="ion ion-search"></span> </span> </a></div>
                   <div class="desc"> 
                   <a href="<?php the_permalink(); ?>" class="name"><?php the_title(); ?></a>
-                    <div class="category"> <?php the_category( ', ' ); ?> </div>
+                   
                 
                        </div>
 
@@ -658,7 +658,7 @@
                           sizes="(max-width: 600px) 100vw, 600px" /><span class="info"> <span class="ion ion-search"></span> </span> </a></div>
                   <div class="desc"> 
                   <a href="<?php the_permalink(); ?>" class="name"><?php echo wp_trim_words(get_the_title(),  3 ) ; ?></a>
-                    <div class="category"> <?php the_category( ', ' ); ?> </div>
+                  
                        </div>
 
 
@@ -700,10 +700,78 @@
               </nav>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div> <noscript>
+        </div> 
+     </div>
+
+
+     <div class="card-inner" id="card-cv">
+                <div class="card-wrap">
+                    <div class="content contacts">
+                        <div class="title">Download CV</div>
+                        <div class="row border-line-v">
+
+                        <div class="col col-d-6 col-t-6 col-m-12">
+                                <div class="box-item">
+                                    <div id="post-115"
+                                        class="post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-design category-music tag-code tag-html tag-plugin tag-web">
+                                        <div class="image">
+                                           <a class="post-thumbnail"   href="<?php bloginfo('template_url'); ?>/assets/cv/cv-eng.pdf"   aria-hidden="true" tabindex="-1" download>
+                                                <img  src="<?php bloginfo('template_url'); ?>/assets/images/bg-cv.png" alt="Creativity Is More Than" />
+
+                                                     <span class="info"> <span  class="ion ion-document-text"></span>
+                                                     </span>
+                                                     </a></div>
+                                                            <div class="desc">
+                                                               <a  href="#"> <span class="date"> English Version</span> </a>
+                                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col col-d-6 col-t-6 col-m-12">
+                                <div class="box-item">
+                                    <div id="post-115"
+                                        class="post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-design category-music tag-code tag-html tag-plugin tag-web">
+                                        <div class="image">
+                                           <a class="post-thumbnail"   href="#"   aria-hidden="true" tabindex="-1">
+                                                <img  src="<?php bloginfo('template_url'); ?>/assets/images/bg-cv-fr.png" alt="Creativity Is More Than" />
+
+                                                     <span class="info"> <span  class="ion ion-document-text"></span> </span> </a></div>
+                                                            <div class="desc">
+                                                               <a  href="#"> <span class="date"> French Version</span> </a>
+                                                            </div>
+                                    </div>
+                                </div>
+                            </div>  
+
+                      
+
+
+                       
+
+
+                            <div class="clear"></div>
+                        </div>
+
+
+
+
+                    
+
+
+                          
+
+
+                    </div>
+                </div>
+            </div>
+</div> 
+  
+
+
+  
+  <noscript>
     <style>
       .lazyload {
         display: none;
@@ -724,6 +792,8 @@
 </body>
 
 </html>
+
+
 
 
 
