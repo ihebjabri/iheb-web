@@ -107,36 +107,88 @@
         <div class="sidebar-wrap">
           <aside id="secondary" class="widget-area">
             <section id="search-2" class="widget widget_search">
-              <form role="search" method="get" class="search-form" action="https://ryancv.bslthemes.com/v4/"> <label> <span class="screen-reader-text">Search for:</span> <input type="search" class="search-field" placeholder="Search &hellip;" value=""
-                    name="s" /> </label> <input type="submit" class="search-submit" value="Search" /></form>
+            <?php get_search_form(); ?>
             </section>
+          
             <section id="recent-posts-2" class="widget widget_recent_entries">
               <h2 class="widget-title">Recent Posts</h2>
               <ul>
-                <li> <a href="#">Creativity Is More Than</a></li>
+              <?php
+                  $args = array (
+                      'showposts' => '5',
+                  );
+                  $the_query = new WP_Query( $args );
+
+                  if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+              ?>
+
+                <li> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+
+
+                <?php endwhile; else : ?>
+                  <li>  No Post :( </li>
+
+              <?php endif; ?> 
+
 
               </ul>
             </section>
             <section id="recent-comments-2" class="widget widget_recent_comments">
               <h2 class="widget-title">Recent Comments</h2>
               <ul id="recentcomments">
-                <li class="recentcomments"><span class="comment-author-link">JOHN SMITH</span> on <a href="#">Creativity Is More Than</a></li>
-             </ul>
+              <?php $recent_comments = get_comments( array( 
+                      'number'      => 5, // number of comments to retrieve.
+                      'status'      => 'approve', // we only want approved comments.
+                      'post_status' => 'publish' // limit to published comments.
+                  ) );
+
+                  if ( $recent_comments ) {
+                      foreach ( (array) $recent_comments as $comment ) {
+                         ?>
+
+                 <li class="recentcomments"><span class="comment-author-link"><?php echo get_comment_author($comment->comment_post_ID);  ?></span>  <a href="<?php echo get_comment_link($comment->comment_post_ID ); ?>"><?php echo get_the_title( $comment->comment_post_ID); ?></a></li>
+            
+               <?php  
+                   }
+                  } 
+
+                  ?>
+            </ul>
             </section>
-            <section id="archives-2" class="widget widget_archive">
-              <h2 class="widget-title">Archives</h2>
-              <ul>
-                <li><a href='https://ryancv.bslthemes.com/v4/2018/11/'>November 2018</a></li>
-              </ul>
-            </section>
+          
             <section id="categories-2" class="widget widget_categories">
               <h2 class="widget-title">Categories</h2>
               <ul>
-                <li class="cat-item cat-item-2"><a href="https://ryancv.bslthemes.com/v4/category/design/">Design</a></li>
-                <li class="cat-item cat-item-3"><a href="https://ryancv.bslthemes.com/v4/category/music/">Music</a></li>
+
+              <?php
+                $args = array(
+                    'type'                     => 'post',
+                    'child_of'                 => 0,
+                    'parent'                   => '',
+                    'orderby'                  => 'name',
+                    'order'                    => 'ASC',
+                    'hide_empty'               => false,
+                    'hierarchical'             => 1,
+                    'exclude'                  => '',
+                    'include'                  => '',
+                    'number'                   => '',
+                    'taxonomy'                 => 'category',
+                    'pad_counts'               => false
+                );
+
+                $cats = get_categories( $args );
+             
+                foreach( $cats as $cat ){
+                   ?>
+
+                <li class="cat-item cat-item-2"><a  href="<?php echo get_category_link($cat->cat_ID); ?>"><?php echo $cat->name ; ?></a></li>
+              
+                   <?php 
+                }
+                ?>
               </ul>
             </section>
-            <section id="meta-2" class="widget widget_meta">
+         <!--   <section id="meta-2" class="widget widget_meta">
               <h2 class="widget-title">Meta</h2>
               <ul>
                 <li><a href="https://ryancv.bslthemes.com/v4/wp-login.php">Log in</a></li>
@@ -144,7 +196,7 @@
                 <li><a href="https://ryancv.bslthemes.com/v4/comments/feed/">Comments feed</a></li>
                 <li><a href="https://wordpress.org/">WordPress.org</a></li>
               </ul>
-            </section>
+            </section> -->
           </aside>
         </div> <span class="close"></span>
       </div>
